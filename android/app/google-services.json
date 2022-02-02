@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284086813334",
+    "project_id": "loja-virtual-a0087",
+    "storage_bucket": "loja-virtual-a0087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284086813334:android:bd22e28f0d8eb6cf1bb8b7",
+        "android_client_info": {
+          "package_name": "br.com.cruz.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284086813334-6jbsrr2i63vbknerq6tn3islk7smlp74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA659uH1wELyaG-MZIno4IIf9fDp_CWPUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284086813334-6jbsrr2i63vbknerq6tn3islk7smlp74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
