@@ -1,16 +1,69 @@
-# loja_virtual
 
-A new Flutter project.
+# Loja Virtual
 
-## Getting Started
+### Um aplicativo de loja virtual para Android e iOS construído com o framework Flutter, com customização de widgets, gerenciamento de Estados com Provider, autenticação por e-mail, Facebook e Gmail, Firestore e Cloud Functions e vendas com transações por cartão de crédito. 
 
-This project is a starting point for a Flutter application.
+---
+<br>
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
+<br>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Sistema de Login/Cadastro com Facebook, Gmail ou E-mail e Senha
+- Controle do Gerente da Loja Integrado
+- Pesquisa de Produtos
+- Controle de Estoque
+- Carrinho de Compras
+- Pagamento por Cartão de Crédito
+- Multiplataforma
+- Notificações por Push
+- Temas dark e light
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Stack utilizada
+<br>
+
+**Linguagem:** Dart
+
+**Framework:** Flutter
+
+**SaaS:** Firebase
+
+---
+
+## Deploy
+<br>
+
+```bash
+Antes de tudo, instale e configure o ambiente de desevolvimento Flutter em seu computador:
+ https://flutter.dev/docs/get-started/install
+
+- Clone:
+$ git clone https://github.com/gabrielmecruz/loja-virtual.git
+
+- Acesse o diretório:
+$ cd Virtual-Store
+
+- Instale as dependências:
+$ flutter pub get
+
+- Rode o app: 
+$ flutter run
+```
+---
+
+## Autor
+
+<br>
+
+   >O aplicativo foi desenvolvido por mim, **[Gabriel Mendes](https://www.linkedin.com/in/gabrielmecruz/)**, com ajuda do professor **[Daniel Ciolfi](https://linkedin.com/in/danielciolfi)**, através do curso **["Crie uma Loja Virtual Completa|Android/iOS com Flutter"](https://www.udemy.com/course/lojaflutter/)** pela **[Udemy](https://www.udemy.com/)**.<br>
+   Se achou interessante, dê uma ⭐ e contribua!
+
+   <br>
+
+   <div align="center">
+
+   [![Linkedin Badge](https://img.shields.io/badge/-Gabriel%20Mendes-0b5e86?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabrielmecruz/)](https://www.linkedin.com/in/gabrielmecruz/)
+
+   </div>
