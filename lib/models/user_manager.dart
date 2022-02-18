@@ -16,6 +16,7 @@ class UserManager extends ChangeNotifier {
 
   bool _loading = false;
   bool get loading => _loading;
+  bool get isLoggedIn => user != null;
 
   set loading(bool value) {
     _loading = value;
@@ -62,6 +63,12 @@ class UserManager extends ChangeNotifier {
       onFail!(getErrorString(e.code));
     }
     loading = false;
+  }
+
+  void signOut() {
+    auth.signOut();
+    user = null;
+    notifyListeners();
   }
 
   ///Function responsible for identifying and instantiating the current user
